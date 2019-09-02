@@ -2,7 +2,7 @@ def ctoa(char):
   return (ord(char)
   
   
-ctoa("A") # 65
-ctoa("m") # 109
-ctoa("[") # 91
-ctoa("\") # 92
+print(ctoa("A")) # 65
+print(ctoa("m")) # 109
+print(ctoa("[")) # 91
+print(ctoa("\")) # 92
