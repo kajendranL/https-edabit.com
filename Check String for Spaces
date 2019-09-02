@@ -11,3 +11,19 @@ print(has_spaces("hello, world")) # True
 print(has_spaces(" ")) # True
 print(has_spaces("")) # False
 print(has_spaces(",./!@#")) # False
+
+
+
+OR
+
+def has_spaces(txt):
+	for char in txt:
+		if char == '':
+			return True
+		return False
+		
+print(has_spaces("hello")) # False
+print(has_spaces("hello, world")) # True
+print(has_spaces(" ")) # True
+print(has_spaces("")) # False
+print(has_spaces(",./!@#")) # False
