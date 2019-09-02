@@ -1,0 +1,11 @@
+
+#Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers.
+
+def isEvenOrOdd(num):
+	if num % 2 == 0:
+		return 'even'
+	return 'odd'
+
+print(isEvenOrOdd(3)) # "odd"
+print(isEvenOrOdd(146)) # "even"
+print(isEvenOrOdd(19)) # "odd"
