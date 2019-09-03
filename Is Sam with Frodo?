@@ -1,0 +1,14 @@
+
+#Sam and Frodo need to be close. If they are side by side in the list, your function should return True. 
+#If there is a name between them, return False.
+
+def middle_earth(lst):
+	sindex = lst.index("Sam")
+	findex = lst.index("Frodo")
+	return sindex +1==findex or findex+1 == sindex
+	
+	
+	
+print(middle_earth(["Frodo", "Sam", "Gandalf"])) # True
+print(middle_earth(["Frodo", "Saruman", "Sam"])) # False
+print(middle_earth(["Orc", "Sam", "Frodo", "Legolas"])) # True
